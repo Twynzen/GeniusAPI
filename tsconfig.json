@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es2018", // versión de JavaScript a la que se va a compilar el código
+    "module": "commonjs", // sistema de módulos que se va a utilizar
+    "outDir": "dist", // carpeta de destino para el código compilado
+    "strict": true, // activar todas las opciones de verificación estricta
+    "esModuleInterop": true, // permitir la interoperabilidad de ES6
+    "skipLibCheck": true, // saltar la comprobación de las definiciones de tipos de la biblioteca
+    "forceConsistentCasingInFileNames": true // obligar a usar nombres de archivo coherentes
+  },
+  "include": [
+    "src/**/*"
+  ], // patrón de inclusión de archivos TypeScript
+  "exclude": [
+    "node_modules"
+  ] // patrón de exclusión de archivos
+}

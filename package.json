@@ -1,0 +1,25 @@
+{
+  "name": "geniusapi",
+  "version": "1.0.0",
+  "description": "training gpt",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Twynzen/GeniusAPI.git"
+  },
+  "author": "Daniel Castiblanco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Twynzen/GeniusAPI/issues"
+  },
+  "homepage": "https://github.com/Twynzen/GeniusAPI#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17"
+  }
+}
