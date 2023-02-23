@@ -29,3 +29,6 @@ Este backend ofrece una forma rápida y sencilla de conectarse a la API de GPT-3
 
 # CIMIENTOS
 Es importante mencionar que lo primero que se hizo en el proyecto fue crear las variables de entorno, lo que garantiza que las credenciales de API estén protegidas y no sean visibles en el código fuente. Esto es una buena práctica de seguridad y es esencial en cualquier proyecto que maneje credenciales de acceso a servicios externos.
+
+# Tecnología de Reconocimiento de Voz: Integración de Grabación de Audio y Conversión de Texto en Proyecto de Backend Genius
+Se identificó la necesidad de una forma de grabar sonido accesible para el usuario en una aplicación web, por lo que se propone la creación de un proyecto en frontend para grabar audio fácil de implementar. Una vez implementado, se adicionaría una API al backend de Genius para recibir archivos de audio en formato mp4 y utilizar una IA llamada Whisper para convertir el audio en texto, el cual se enviaría como prompt a la API de GPT-3 para obtener una respuesta comunicada por voz. Este proceso permitiría una interacción más natural con la API de GPT-3, mejorando la experiencia del usuario en la aplicación
