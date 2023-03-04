@@ -32,3 +32,11 @@ Es importante mencionar que lo primero que se hizo en el proyecto fue crear las 
 
 # Tecnología de Reconocimiento de Voz: Integración de Grabación de Audio y Conversión de Texto en Proyecto de Backend Genius
 Se identificó la necesidad de una forma de grabar sonido accesible para el usuario en una aplicación web, por lo que se propone la creación de un proyecto en frontend para grabar audio fácil de implementar. Una vez implementado, se adicionaría una API al backend de Genius para recibir archivos de audio en formato mp4 y utilizar una IA llamada Whisper para convertir el audio en texto, el cual se enviaría como prompt a la API de GPT-3 para obtener una respuesta comunicada por voz. Este proceso permitiría una interacción más natural con la API de GPT-3, mejorando la experiencia del usuario en la aplicación
+
+# Control de errores
+Se utiliza la librería BOOM
+
+Lee bien la documentación de la API y familiarízate con sus parámetros, funciones y ejemplos. Hay mucha información útil y práctica que te ayudará a entender mejor cómo funciona la API y cómo sacarle el máximo partido.
+Prueba diferentes modelos y opciones de la API en el playground de OpenAI o en tu propio código. Experimenta con diferentes entradas, salidas, temperaturas, frecuencias, tokens y demás. Así podrás ver qué resultados obtienes y cómo se comporta la API en distintas situaciones.
+Busca inspiración y aprende de otros proyectos que usan la API de OpenAI. Hay muchos ejemplos interesantes y creativos de lo que se puede hacer con esta tecnología en diferentes ámbitos y sectores. Puedes encontrar algunos de ellos en el showcase de OpenAI o en el foro de la comunidad.
+Sé responsable y ético al usar la API de OpenAI. Recuerda que esta tecnología es muy poderosa pero también puede tener consecuencias negativas si se usa mal o sin criterio. Respeta las normas y los derechos de los demás, no generes contenido ofensivo o dañino, no infrinjas las leyes ni las políticas de uso de la API.
