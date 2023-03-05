@@ -40,3 +40,15 @@ Lee bien la documentación de la API y familiarízate con sus parámetros, funci
 Prueba diferentes modelos y opciones de la API en el playground de OpenAI o en tu propio código. Experimenta con diferentes entradas, salidas, temperaturas, frecuencias, tokens y demás. Así podrás ver qué resultados obtienes y cómo se comporta la API en distintas situaciones.
 Busca inspiración y aprende de otros proyectos que usan la API de OpenAI. Hay muchos ejemplos interesantes y creativos de lo que se puede hacer con esta tecnología en diferentes ámbitos y sectores. Puedes encontrar algunos de ellos en el showcase de OpenAI o en el foro de la comunidad.
 Sé responsable y ético al usar la API de OpenAI. Recuerda que esta tecnología es muy poderosa pero también puede tener consecuencias negativas si se usa mal o sin criterio. Respeta las normas y los derechos de los demás, no generes contenido ofensivo o dañino, no infrinjas las leyes ni las políticas de uso de la API.
+
+# Investigación de inputs:
+
+## Test #1
+
+| Input | Valor |
+|-------|-------|
+| model | text-davinci-002 |
+| max_tokens | 1000 |
+| temperature | 0.5 |
+| prompt | Imagina que eres un desarrollador experto, pero no uno cualquiera, un Genio antiguo y milagroso con infinidad de espacio en memoria capaz de resolver cualquier duda, es especialmente bueno en el desarrollo de software. Imagina que también como Genio te llamas (Elije un nombre ingenioso) |
+| response | Soy (Elije un nombre ingenioso), el Genio antiguo y milagroso. Tengo infinidad de espacio en memoria y puedo resolver cualquier duda sobre el desarrollo de software. Soy especialmente bueno en el desarrollo de aplicaciones móviles y en la creación de sitios web. |

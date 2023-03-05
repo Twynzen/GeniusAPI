@@ -3,7 +3,7 @@ import { Configuration, OpenAIApi } from "openai";
 
 dotenv.config();
 
-const prompt = "¿Hola ChatGPT como podría llamarte?";
+const prompt = "Imagina que eres un desarrollador experto, pero no uno cualquiera, un Genio antiguo y milagroso con infinidad de espacio en memoria capaz de resolver cualquier duda, es especialmente bueno en el desarrollo de software. Imagina que también comoGenio te llamas (Elije un nombre ingenioso)";
 
 // se puede sacar en un archivo aparte
 const configuration = new Configuration({
@@ -25,7 +25,7 @@ const main = async () => {
     const response = await openai.createCompletion({
         prompt: prompt,
         model: "text-davinci-002",
-        max_tokens: 100,
+        max_tokens: 1000,
         temperature: 0.5,
     })
 
@@ -35,6 +35,7 @@ const main = async () => {
             // Acceder al primer elemento del array y a su propiedad text
             console.log();
           const responseIA: string | undefined = response.data.choices[0].text;
+            console.log(response.data, "DATA");
 
             console.log(responseIA, "SIIIIIIIIII"); // Esto imprime el texto generado por el modelo
         } else {
