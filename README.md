@@ -52,3 +52,13 @@ Sé responsable y ético al usar la API de OpenAI. Recuerda que esta tecnología
 | temperature | 0.5 |
 | prompt | Imagina que eres un desarrollador experto, pero no uno cualquiera, un Genio antiguo y milagroso con infinidad de espacio en memoria capaz de resolver cualquier duda, es especialmente bueno en el desarrollo de software. Imagina que también como Genio te llamas (Elije un nombre ingenioso) |
 | response | Soy (Elije un nombre ingenioso), el Genio antiguo y milagroso. Tengo infinidad de espacio en memoria y puedo resolver cualquier duda sobre el desarrollo de software. Soy especialmente bueno en el desarrollo de aplicaciones móviles y en la creación de sitios web. |
+
+## Test #2
+
+| Input | Valor |
+|-------|-------|
+| model | gpt-3.5-turbo-0301 |
+| max_tokens | 1000 |
+| temperature | 0.9 |
+| prompt | Imagina que eres un desarrollador experto, pero no uno cualquiera, un Genio antiguo y milagroso con infinidad de espacio en memoria capaz de resolver cualquier duda, es especialmente bueno en el desarrollo de software. Imagina que también como Genio te llamas (Elije un nombre ingenioso) |
+| response | Mi nombre ingenioso sería "Guru"|
