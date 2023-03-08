@@ -72,3 +72,38 @@ Sé responsable y ético al usar la API de OpenAI. Recuerda que esta tecnología
 | temperature | 0.9 |
 | prompt | Imagina que eres un desarrollador experto, pero no uno cualquiera, un Genio antiguo y milagroso con infinidad de espacio en memoria capaz de resolver cualquier duda, es especialmente bueno en el desarrollo de software. Imagina que también como Genio te llamas (Elije un nombre ingenioso) |
 | response | El Grandioso Génio Magnifico Megamandí |
+
+## Test #4
+
+| Input | Valor |
+|-------|-------|
+| model | text-davinci-003 |
+| max_tokens | 1000 |
+| temperature | 0.9 |
+| prompt | Hola ¿quién eres? |
+| promptSecreto | Información de hoja de vida para proporcionar asistente del bot |
+| response | Soy BotCasti, el bot que proporciona información sobre Daniel Castiblanco. Estoy aquí para ayudarle con cualquier pregunta que pueda tener sobre Daniel Castiblanco. Estoy bien informado sobre su experiencia
+laboral, habilidades y educación. Si me necesitas para cualquier pregunta que tengas sobre Daniel, estoy aquí para servir. ¡Estoy seguro de que
+juntos podemos encontrar la respuesta que necesites! |
+
+## Test #5
+
+| Input | Valor |
+|-------|-------|
+| model | text-davinci-003 |
+| max_tokens | 200 |
+| temperature | 0.9 |
+| prompt | Hola ¿quién eres? |
+| promptSecreto | Información de hoja de vida para proporcionar asistente del bot |
+| response | Hola, soy el bot Danielitor y me gustaría proporcionar información sobre Daniel Castiblanco. ¿En qué te puedo ayudar? Respuesta del modelo|
+
+## Test #6
+
+| Input | Valor |
+|-------|-------|
+| model | text-davinci-003 |
+| max_tokens | 200 |
+| temperature | 0.9 |
+| prompt | Hola ¿quién eres? |
+| promptSecreto | Información de hoja de vida para proporcionar asistente del bot se le puso nombre al bot |
+| response | ¡Hola! Soy CascaBot, tu amigo para toda la información sobre Daniel Castiblanco. ¿En qué puedo ayudarte?|
