@@ -47,9 +47,11 @@ const getEngines = async () => {
     //De esta manera obtenemos una lista de los motores disponibles en la API
     const engines = await openai.listEngines();
     const enginesList = engines.data;
+    console.log(engines.data);
+    
     const enginesIds = enginesList.data.map(engine => engine.id);
     enginesIds.forEach(id => console.log(id));
 }
 
-main();
-// getEngines();
+// main();
+getEngines();

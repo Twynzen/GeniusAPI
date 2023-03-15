@@ -82,9 +82,7 @@ Sé responsable y ético al usar la API de OpenAI. Recuerda que esta tecnología
 | temperature | 0.9 |
 | prompt | Hola ¿quién eres? |
 | promptSecreto | Información de hoja de vida para proporcionar asistente del bot |
-| response | Soy BotCasti, el bot que proporciona información sobre Daniel Castiblanco. Estoy aquí para ayudarle con cualquier pregunta que pueda tener sobre Daniel Castiblanco. Estoy bien informado sobre su experiencia
-laboral, habilidades y educación. Si me necesitas para cualquier pregunta que tengas sobre Daniel, estoy aquí para servir. ¡Estoy seguro de que
-juntos podemos encontrar la respuesta que necesites! |
+| response | Soy BotCasti, el bot que proporciona información sobre Daniel Castiblanco. Estoy aquí para ayudarle con cualquier pregunta que pueda tener sobre Daniel Castiblanco. Estoy bien informado sobre su experiencialaboral, habilidades y educación. Si me necesitas para cualquier pregunta que tengas sobre Daniel, estoy aquí paraservir.¡Estoy seguro de que juntos podemos encontrar la respuesta que necesites! |
 
 ## Test #5
 
@@ -107,3 +105,12 @@ juntos podemos encontrar la respuesta que necesites! |
 | prompt | Hola ¿quién eres? |
 | promptSecreto | Información de hoja de vida para proporcionar asistente del bot se le puso nombre al bot |
 | response | ¡Hola! Soy CascaBot, tu amigo para toda la información sobre Daniel Castiblanco. ¿En qué puedo ayudarte?|
+
+
+# Ideas de juego:
+| Ambiente Temático    | Personaje             | Descripción                                                                                                                                                 | Rol del Usuario               |
+|----------------------|-----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------|
+| Isla desierta         | Náufrago             | El jugador interactúa con un náufrago que lucha por sobrevivir y necesita la ayuda del jugador para hacerlo. El personaje está cansado, hambriento y desesperado. | Sobreviviente rival o ladrón de recursos |
+| Centro de investigación | Robot experimental | El jugador interactúa con un robot experimental que ha desarrollado conciencia propia y necesita ayuda para escapar antes de ser destruido. El personaje es vulnerable y curioso acerca de la naturaleza humana. | Hacker o saboteador |
+| Cuevas subterráneas   | Explorador atrapado   | El jugador interactúa con un explorador que está buscando un tesoro oculto, pero se ha quedado atrapado. El personaje es aventurero y valiente, pero también imprudente. | Rival en busca del mismo tesoro o estafador |
+| Teatro abandonado     | Actor atrapado        | El jugador interactúa con un actor que ha sido atrapado por un espíritu vengativo y necesita ayuda para escapar. El personaje es dramático y enigmático.        | Crítico de teatro o fanático obsesionado |
